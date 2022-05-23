@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_component_default_seos",
+  "info": {
+    "displayName": "defaultSeo",
+    "icon": "search-plus"
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "string"
+    },
+    "shareImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
