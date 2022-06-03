@@ -7,34 +7,14 @@
     "displayName": "Category"
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": true,
+    "relation": "oneToMany",
+    "target": "api::post.post",
+    "mappedBy": "category"
   },
-  "pluginOptions": {},
-  "attributes": {
-    "name": {
-      "type": "string",
-      "required": true
-    },
-    "slug": {
-      "type": "uid",
-      "targetField": "name",
-      "required": true
-    },
-    "posts": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::post.post",
-      "mappedBy": "category"
-    },
-    "icon": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": true
-    }
+  "icon": {
+    "allowedTypes": ["images", "files", "videos", "audios"],
+    "type": "media",
+    "multiple": true
   }
 }
