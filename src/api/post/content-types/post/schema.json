@@ -35,14 +35,12 @@
       "target": "api::category.category",
       "inversedBy": "posts"
     },
-    "image": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false
-    },
+
     "tags": {
+      "type": "string",
+      "required": true
+    },
+    "order": {
       "type": "string",
       "required": true
     }
