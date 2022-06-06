@@ -38,6 +38,16 @@
     "tags": {
       "type": "string",
       "required": true
+    },
+    "order": {
+      "type": "number",
+      "required": true,
+      "info": {
+        "label": "Order",
+        "placeholder": "Order",
+        "display": true,
+        "displayOrder": 6
+      }
     }
   }
 }
