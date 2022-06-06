@@ -24,16 +24,6 @@
         "displayOrder": 1
       }
     },
-    "description": {
-      "type": "string",
-      "required": false,
-      "info": {
-        "label": "Description",
-        "placeholder": "Description",
-        "display": true,
-        "displayOrder": 2
-      }
-    },
     "slug": {
       "type": "string",
       "required": true,
@@ -51,54 +41,14 @@
       "target": "api::post.post",
       "mappedBy": "category"
     },
-    "image": {
-      "type": "string",
-      "required": false,
-      "info": {
-        "label": "Image",
-        "placeholder": "Image",
-        "display": true,
-        "displayOrder": 4
-      }
-    },
-    "parent": {
-      "type": "string",
-      "required": false,
-      "info": {
-        "label": "Parent",
-        "placeholder": "Parent",
-        "display": true,
-        "displayOrder": 5
-      }
-    },
     "order": {
       "type": "number",
-      "required": false,
+      "required": true,
       "info": {
         "label": "Order",
         "placeholder": "Order",
         "display": true,
         "displayOrder": 6
-      }
-    },
-    "createdAt": {
-      "type": "date",
-      "required": false,
-      "info": {
-        "label": "Created At",
-        "placeholder": "Created At",
-        "display": false,
-        "displayOrder": 7
-      }
-    },
-    "updatedAt": {
-      "type": "date",
-      "required": false,
-      "info": {
-        "label": "Updated At",
-        "placeholder": "Updated At",
-        "display": false,
-        "displayOrder": 8
       }
     }
   }
