@@ -45,6 +45,12 @@
         "displayOrder": 3
       }
     },
+    "posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post.post",
+      "mappedBy": "category"
+    },
     "image": {
       "type": "string",
       "required": false,
