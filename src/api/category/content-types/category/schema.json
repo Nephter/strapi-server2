@@ -42,7 +42,7 @@
       "mappedBy": "category"
     },
     "order": {
-      "type": "number",
+      "type": "string",
       "required": true,
       "info": {
         "label": "Order",
